@@ -27,5 +27,12 @@ input{
 	font-family: Roboto;
 }
 .row{
-	
+	text-align: left;
+	padding: 20px;
+	border: 1px solid;
+	margin-bottom: 5px;
+}
+.row:hover{
+	background-color: #3498db;
+	color: #fff;
 }
