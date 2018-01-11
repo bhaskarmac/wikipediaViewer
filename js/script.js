@@ -35,7 +35,7 @@ $(document).ready(function () {
 		console.log('createUI=>', results);
 		$('.searchResults').empty();
 		for (var i = 0; i < results.length; i++) {
-			$('.searchResults').append('<div>'+ results[i].title +'</div>');
+			$('.searchResults').append('<div class="row"><a href="https://en.wikipedia.org/?curid='+results[i].pageid+'" target="_blank">'+ results[i].title +'</a></div>');
 		}
 	}
 
